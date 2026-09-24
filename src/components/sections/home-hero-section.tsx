@@ -7,7 +7,7 @@ export default function HomeHeroSection() {
   return (
     <>
       <section className="relative flex h-fit w-full flex-col items-center overflow-hidden">
-        <div className="relative flex h-svh max-h-256 min-h-160 w-full items-center justify-center xl:h-[110vh] 2xl:h-[120vh]">
+        <div className="relative flex h-svh max-h-256 min-h-160 w-full items-center justify-center overflow-hidden xl:h-[110vh] 2xl:h-[120vh]">
           {/* background picture */}
           <Image
             className="absolute -z-20 h-full w-full object-cover"
@@ -47,14 +47,14 @@ export default function HomeHeroSection() {
             alt="white building wireframe mirrored"
           />
           <Image
-            className="xs:block absolute -bottom-19 hidden w-full"
+            className="xs:block absolute bottom-0 translate-y-[30%] hidden w-full h-auto"
             width={1920}
             height={355}
-            src="/images/white-building-wireframe-mirrored-msumain-gate.png"
+            src="/images/white-building-wireframe-mirrored-msumain-gate1.png"
             alt="white building wireframe mirrored"
           />
         </div>
-        <div className="from-mainmaroon relative max-h-23 w-full bg-linear-to-b from-30% to-white/10 pb-8 md:max-h-30 lg:max-h-40 xl:max-h-50 2xl:max-h-60">
+        <div className="from-mainmaroon relative max-h-23 w-full overflow-hidden bg-linear-to-b from-30% to-white/10 pb-8 md:max-h-30 lg:max-h-40 xl:max-h-50 2xl:max-h-60">
           <Image
             className="xs:hidden w-full origin-center rotate-180 opacity-15"
             src="/images/white-building-wireframe-mirrored-mobile.png"
@@ -63,10 +63,10 @@ export default function HomeHeroSection() {
             alt="white building wireframe mirrored"
           />
           <Image
-            className="xs:block hidden w-full origin-center rotate-180 opacity-15"
+            className="xs:block hidden w-full origin-center -translate-y-[30%] rotate-180 opacity-15 h-auto"
             width={1920}
             height={355}
-            src="/images/white-building-wireframe-mirrored.png"
+            src="/images/white-building-wireframe-mirrored-msumain-gate1.png"
             alt="white building wireframe mirrored"
           />
           <Waveform className="absolute bottom-15 -left-62 w-100 rotate-40 sm:bottom-15 sm:-left-55 md:bottom-35 md:-left-125 lg:bottom-45 lg:-left-155 xl:bottom-52 xl:-left-210 2xl:bottom-55 2xl:-left-200" />
