@@ -41,10 +41,10 @@ const IndependentBodies = ({
             </div>
           </CardHeader>
           <CardContent className="flex flex-col items-center p-0">
-            <h1 className="font-formular-black uppercase text-center text-xs text-mainblue md:text-base">
+            <h1 className="font-formular-black uppercase text-center text-xs text-mainmaroon md:text-base">
               {organizationName}
             </h1>
-            <div className="mt-1 flex w-full max-w-40 items-start justify-center gap-1 text-blue1 md:max-w-50 xl:max-w-55">
+            <div className="mt-1 flex w-full max-w-40 items-start justify-center gap-1 text-gold1 md:max-w-50 xl:max-w-55">
               <div className="flex w-5 shrink-0 justify-center md:w-6">
                 <FaFacebook className="size-4 md:size-5" />
               </div>

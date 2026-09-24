@@ -38,7 +38,7 @@ function linkifyText(text: string) {
           href={href}
           target="_blank"
           rel="noopener noreferrer"
-          className="text-mainblue hover:underline"
+          className="text-mainmaroon hover:underline"
         >
           {renderWithFallbackFont(part)}
         </a>
@@ -65,7 +65,7 @@ function processLine(line: string) {
 
 export default function StudentPerks() {
   return (
-    <div className="font-formular-regular text-mainblue w-full">
+    <div className="font-formular-regular text-mainmaroon w-full">
       <TabHeader name="STUDENT PERKS" />
       <div className="mx-2 sm:mx-auto px-3 xs:px-5 py-8 sm:px-8 sm:py-24 flex flex-col items-center gap-12">
         {/* SPOTIFY - Left Card */}
@@ -82,7 +82,7 @@ export default function StudentPerks() {
               href="https://www.spotify.com/ph-en/student/"
               target="_blank"
               rel="noopener noreferrer"
-              className="font-trapix text-xl sm:text-3xl mb-2 flex items-center gap-2 text-mainblue hover:underline"
+              className="font-trapix text-xl sm:text-3xl mb-2 flex items-center gap-2 text-mainmaroon hover:underline"
             >
               <span className="flex items-center">
                 SPOTIFY
@@ -109,7 +109,7 @@ export default function StudentPerks() {
               href="https://support.apple.com/en-ph/106008"
               target="_blank"
               rel="noopener noreferrer"
-              className="font-trapix text-xl sm:text-3xl mb-2 flex items-center gap-2 text-mainblue hover:underline"
+              className="font-trapix text-xl sm:text-3xl mb-2 flex items-center gap-2 text-mainmaroon hover:underline"
             >
               <span className="flex items-center">
                 APPLE MUSIC
@@ -150,7 +150,7 @@ export default function StudentPerks() {
               href="https://www.microsoft.com/en/microsoft-365?market=af"
               target="_blank"
               rel="noopener noreferrer"
-              className="font-trapix text-xl sm:text-3xl mb-2 text-mainblue group"
+              className="font-trapix text-xl sm:text-3xl mb-2 text-mainmaroon group"
             >
               <span className="inline-flex flex-wrap items-center gap-2">
                 <span className="group-hover:underline">MICROSOFT OFFICE</span>{" "}
@@ -179,7 +179,7 @@ export default function StudentPerks() {
               href="https://workspace.google.com/intl/en_ph/"
               target="_blank"
               rel="noopener noreferrer"
-              className="font-trapix text-xl sm:text-3xl mb-2 text-mainblue group"
+              className="font-trapix text-xl sm:text-3xl mb-2 text-mainmaroon group"
             >
               <span className="inline-block">
                 <span className="group-hover:underline">
@@ -225,7 +225,7 @@ export default function StudentPerks() {
               href="https://www.grammarly.com/enterprise/signup"
               target="_blank"
               rel="noopener noreferrer"
-              className="font-trapix text-xl sm:text-3xl mb-2 flex items-center gap-2 text-mainblue hover:underline"
+              className="font-trapix text-xl sm:text-3xl mb-2 flex items-center gap-2 text-mainmaroon hover:underline"
             >
               {/* Mobile: two lines */}
               <span className="block sm:hidden">

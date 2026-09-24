@@ -17,16 +17,16 @@ const LibrariesAndServicesSection = () => {
 
         {/* Desktop Version */}
         <div className="hidden md:block overflow-x-auto my-12 md:max-w-7xl mx-auto">
-          <table className="border-2 border-mainblue w-full bg-white">
+          <table className="border-2 border-mainmaroon w-full bg-white">
             <thead>
-              <tr className="text-mainblue">
-                <th className="border-2 border-mainblue text-mainblue px-6 py-4 text-center font-semibold text-sm w-1/4">
+              <tr className="text-mainmaroon">
+                <th className="border-2 border-mainmaroon text-mainmaroon px-6 py-4 text-center font-semibold text-sm w-1/4">
                   Library
                 </th>
-                <th className="border border-mainblue text-mainblue px-6 py-4 text-center font-semibold text-sm">
+                <th className="border border-mainmaroon text-mainmaroon px-6 py-4 text-center font-semibold text-sm">
                   Library Description
                 </th>
-                <th className="border border-mainblue text-mainblue px-6 py-4 text-center font-semibold text-sm">
+                <th className="border border-mainmaroon text-mainmaroon px-6 py-4 text-center font-semibold text-sm">
                   Narrative Descriptions
                 </th>
               </tr>
@@ -35,28 +35,28 @@ const LibrariesAndServicesSection = () => {
             <tbody>
               {libarariesAndServicesData.map((data, i) => (
                 <tr key={i} className="bg-white">
-                  <td className="border-2 border-mainblue text-mainblue px-6 py-4 text-center">
+                  <td className="border-2 border-mainmaroon text-mainmaroon px-6 py-4 text-center">
                     {data.link ? (
                       <a
                         href={data.link}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="underline text-mainblue text-sm font-semibold hover:underline"
+                        className="underline text-mainmaroon text-sm font-semibold hover:underline"
                       >
                         {data.libary}
                       </a>
                     ) : (
-                      <span className="underline text-mainblue text-sm font-semibold">
+                      <span className="underline text-mainmaroon text-sm font-semibold">
                         {data.libary}
                       </span>
                     )}
                   </td>
 
-                  <td className="border-2 border-mainblue text-mainblue px-6 py-4 text-left text-sm">
+                  <td className="border-2 border-mainmaroon text-mainmaroon px-6 py-4 text-left text-sm">
                     {data.libaryDescription}
                   </td>
 
-                  <td className="border-2 border-mainblue text-mainblue px-6 py-4 text-left text-sm">
+                  <td className="border-2 border-mainmaroon text-mainmaroon px-6 py-4 text-left text-sm">
                     {data.narrativeDescriptions}
                   </td>
                 </tr>
@@ -80,41 +80,41 @@ const LibrariesAndServicesSection = () => {
           {libarariesAndServicesData.map((data, i) => (
             <div
               key={i}
-              className="border-2 border-mainblue rounded-lg p-4 bg-white z-10"
+              className="border-2 border-mainmaroon rounded-lg p-4 bg-white z-10"
             >
               <div className="mb-3">
-                <p className="text-xs text-mainblue font-black mb-1">Source:</p>
+                <p className="text-xs text-mainmaroon font-black mb-1">Source:</p>
 
                 {data.link ? (
                   <a
                     href={data.link}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-mainblue font-semibold underline text-sm hover:opacity-80"
+                    className="text-mainmaroon font-semibold underline text-sm hover:opacity-80"
                   >
                     {data.libary}
                   </a>
                 ) : (
-                  <span className="text-mainblue font-semibold underline text-sm">
+                  <span className="text-mainmaroon font-semibold underline text-sm">
                     {data.libary}
                   </span>
                 )}
               </div>
 
               <div>
-                <p className="text-xs text-mainblue mb-1 font-black">
+                <p className="text-xs text-mainmaroon mb-1 font-black">
                   Library Description:
                 </p>
-                <p className="text-sm text-mainblue font-medium">
+                <p className="text-sm text-mainmaroon font-medium">
                   {data.libaryDescription}
                 </p>
               </div>
 
               <div>
-                <p className="text-xs text-mainblue mb-1 font-black">
+                <p className="text-xs text-mainmaroon mb-1 font-black">
                   Narrative Descriptions:
                 </p>
-                <p className="text-sm text-mainblue font-medium">
+                <p className="text-sm text-mainmaroon font-medium">
                   {data.narrativeDescriptions}
                 </p>
               </div>

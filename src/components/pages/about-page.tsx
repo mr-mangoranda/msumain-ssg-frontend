@@ -64,7 +64,7 @@ function AboutPage() {
             priority
           />
         </div>
-        <div className="font-formular-medium text-mainblue xs:text-sm mt-6 w-3/4 text-center text-xs lg:mt-8 lg:w-5/7 lg:text-lg lg:leading-tight lg:uppercase 2xl:mt-12 2xl:w-4/7 2xl:text-2xl">
+        <div className="font-formular-medium text-mainmaroon xs:text-sm mt-6 w-3/4 text-center text-xs lg:mt-8 lg:w-5/7 lg:text-lg lg:leading-tight lg:uppercase 2xl:mt-12 2xl:w-4/7 2xl:text-2xl">
           The Samahan ng Mga Mag-Aaral ng Pamantasang Ateneo de Davao, or
           SAMAHAN, is the lone autonomous Student Government of the College unit
           of Ateneo de Davao University.
@@ -80,11 +80,11 @@ function AboutPage() {
               priority
             />
           </div>
-          <div className="font-formular-black text-mainblue xs:text-3xl mt-2.5 text-2xl lg:text-[40px] 2xl:mt-5 2xl:text-6xl">
+          <div className="font-formular-black text-mainmaroon xs:text-3xl mt-2.5 text-2xl lg:text-[40px] 2xl:mt-5 2xl:text-6xl">
             THE BRANDING
           </div>
 
-          <div className="font-formular-regular text-mainblue mt-7 flex flex-col gap-y-3.5 text-justify text-sm lg:mt-10 lg:gap-y-6 lg:text-base 2xl:text-lg">
+          <div className="font-formular-regular text-mainmaroon mt-7 flex flex-col gap-y-3.5 text-justify text-sm lg:mt-10 lg:gap-y-6 lg:text-base 2xl:text-lg">
             <div>
               In a world where doing more is often mistaken for being more,{" "}
               <strong className={emphasisStyle}>
@@ -219,7 +219,7 @@ function AboutPage() {
             </div>
           </div>
 
-          <div className="text-mainblue mt-20 mb-28 flex w-full justify-center lg:mt-44 lg:mb-60 2xl:mt-60">
+          <div className="text-mainmaroon mt-20 mb-28 flex w-full justify-center lg:mt-44 lg:mb-60 2xl:mt-60">
             <div className="flex w-full flex-col items-center justify-center lg:w-6/7 2xl:w-5/7">
               <div className="font-trapix xs:text-[32px] text-[26px] lg:text-4xl lg:uppercase 2xl:text-5xl">
                 Organizational Chart
@@ -230,11 +230,11 @@ function AboutPage() {
                 organizational chart for a clear view of the department
                 structure.
               </div>
-              <div className="bg-mainblue xs:w-max mt-7 h-min w-full rounded-3xl px-7 py-4 lg:mt-10">
+              <div className="bg-mainmaroon xs:w-max mt-7 h-min w-full rounded-3xl px-7 py-4 lg:mt-10">
                 <a
                   href="/documents/SAMAHAN-On-The-Move-Organizational-Chart.pdf"
                   download="SAMAHAN-On-The-Move-Organizational-Chart.pdf"
-                  className="font-formular-mono mt-4 cursor-pointer rounded-sm bg-mainblue px-4 py-1.5 text-center text-xs tracking-wide text-white md:rounded-xl md:px-12 md:py-3 md:text-sm"
+                  className="font-formular-mono mt-4 cursor-pointer rounded-sm bg-mainmaroon px-4 py-1.5 text-center text-xs tracking-wide text-white md:rounded-xl md:px-12 md:py-3 md:text-sm"
                 >
                   DOWNLOAD CHART
                 </a>

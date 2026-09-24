@@ -47,7 +47,7 @@ const CustomDropdown: React.FC<CustomDropdownProps> = ({
       ref={dropdownRef}
     >
       {label && (
-        <label className="text-mainblue font-extrabold text-sm uppercase tracking-widest hidden md:block whitespace-nowrap">
+        <label className="text-mainmaroon font-extrabold text-sm uppercase tracking-widest hidden md:block whitespace-nowrap">
           {label}
           <span className="font-['Arial']">:</span>
         </label>
@@ -55,7 +55,7 @@ const CustomDropdown: React.FC<CustomDropdownProps> = ({
       <div className="relative w-full">
         <button
           onClick={() => setIsOpen(!isOpen)}
-          className={`flex items-center justify-between text-sm md:text-base w-full px-2 md:px-4 py-0.5 md:py-2 bg-white border border-mainblue text-mainblue font-bold shadow-sm hover:bg-blue-50 transition-all ${
+          className={`flex items-center justify-between text-sm md:text-base w-full px-2 md:px-4 py-0.5 md:py-2 bg-white border border-mainmaroon text-mainmaroon font-bold shadow-sm hover:bg-blue-50 transition-all ${
             isOpen ? "rounded-t-xl border-b-0" : "rounded-xl"
           }`}
         >
@@ -69,7 +69,7 @@ const CustomDropdown: React.FC<CustomDropdownProps> = ({
         </button>
 
         {isOpen && (
-          <div className="absolute top-full right-0 left-0 -mt-[1px] bg-white border border-mainblue rounded-b-lg shadow-xl overflow-hidden py-1 z-50">
+          <div className="absolute top-full right-0 left-0 -mt-[1px] bg-white border border-mainmaroon rounded-b-lg shadow-xl overflow-hidden py-1 z-50">
             <div className="max-h-60 overflow-y-auto">
               {options.map((option) => {
                 const isSelected = value === option;
@@ -80,17 +80,17 @@ const CustomDropdown: React.FC<CustomDropdownProps> = ({
                       onChange(option);
                       setIsOpen(false);
                     }}
-                    className="group flex items-center justify-between px-2 md:px-4 py-0.5 md:py-2 hover:bg-gray-300 cursor-pointer transition-colors text-mainblue font-medium"
+                    className="group flex items-center justify-between px-2 md:px-4 py-0.5 md:py-2 hover:bg-gray-300 cursor-pointer transition-colors text-mainmaroon font-medium"
                   >
                     <span className="truncate mr-2 text-sm md:text-base">
                       {option}
                     </span>
                     <div
-                      className={`w-4 h-4 border border-mainblue rounded-[1px] flex-shrink-0 flex items-center justify-center 
+                      className={`w-4 h-4 border border-mainmaroon rounded-[1px] flex-shrink-0 flex items-center justify-center 
                         ${
                           isSelected
-                            ? "bg-mainblue"
-                            : "bg-transparent group-hover:bg-mainblue/50"
+                            ? "bg-mainmaroon"
+                            : "bg-transparent group-hover:bg-mainmaroon/50"
                         }`}
                     ></div>
                   </div>
@@ -177,7 +177,7 @@ function GazettePage() {
         imageAlt="Gazette Page Hero"
         header2="GAZETTE"
       />
-      <div className="flex flex-col justify-center items-center font-formular-regular text-mainblue pt-8 md:pt-10 lg:pt-14 px-4 xs:px-10 sm:px-14 pb-20 md:px-20">
+      <div className="flex flex-col justify-center items-center font-formular-regular text-mainmaroon pt-8 md:pt-10 lg:pt-14 px-4 xs:px-10 sm:px-14 pb-20 md:px-20">
         <div className="text-center">
           <h2 className="font-formular-black text-2xl md:text-4xl lg:text-5xl font-bold">
             GOVERNING DOCUMENTS
@@ -246,7 +246,7 @@ function GazettePage() {
             />
             <button
               onClick={handleSearch}
-              className="cursor-pointer font-formular-mono border border-mainblue rounded-xl px-8 py-2 flex-shrink-0 hover:bg-mainblue hover:text-white transition-colors duration-200"
+              className="cursor-pointer font-formular-mono border border-mainmaroon rounded-xl px-8 py-2 flex-shrink-0 hover:bg-mainmaroon hover:text-white transition-colors duration-200"
             >
               search
             </button>
@@ -254,7 +254,7 @@ function GazettePage() {
         </div>
 
         {/* 4. Render filtered documents here */}
-        <div className="document-entry w-full max-w-[1200px] mt-4 md:mt-6 mx-auto divide-y-2 divide-mainblue">
+        <div className="document-entry w-full max-w-[1200px] mt-4 md:mt-6 mx-auto divide-y-2 divide-mainmaroon">
           {paginatedDocuments.map((doc) => (
             <DocumentEntry
               key={doc.documentName}
@@ -279,7 +279,7 @@ function GazettePage() {
         {totalPages > 1 && (
           <div className="flex justify-center items-center space-x-2 mt-6">
             <button
-              className="px-3 py-1 border border-mainblue rounded disabled:opacity-50 text-mainblue"
+              className="px-3 py-1 border border-mainmaroon rounded disabled:opacity-50 text-mainmaroon"
               onClick={() => setPage(page - 1)}
               disabled={page === 1}
               aria-label="Previous page"
@@ -289,11 +289,11 @@ function GazettePage() {
             {Array.from({ length: totalPages }, (_, i) => (
               <button
                 key={i + 1}
-                className={`px-3 py-1 rounded border border-mainblue
+                className={`px-3 py-1 rounded border border-mainmaroon
                   ${
                     page === i + 1
-                      ? "bg-mainblue text-white"
-                      : "bg-white text-mainblue hover:bg-mainblue hover:text-white transition-colors duration-150"
+                      ? "bg-mainmaroon text-white"
+                      : "bg-white text-mainmaroon hover:bg-mainmaroon hover:text-white transition-colors duration-150"
                   }`}
                 onClick={() => setPage(i + 1)}
                 aria-label={`Page ${i + 1}`}
@@ -302,7 +302,7 @@ function GazettePage() {
               </button>
             ))}
             <button
-              className="px-3 py-1 border border-mainblue rounded disabled:opacity-50 text-mainblue"
+              className="px-3 py-1 border border-mainmaroon rounded disabled:opacity-50 text-mainmaroon"
               onClick={() => setPage(page + 1)}
               disabled={page === totalPages}
               aria-label="Next page"

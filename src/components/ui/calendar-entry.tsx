@@ -30,15 +30,15 @@ export default function CalendarEntry({
 }: CalendarEntryProps) {
   const styles = {
     inactive:
-      "text-mainblue bg-white hover:bg-gray-200 active:bg-mainblue active:text-white",
-    active: "text-white bg-mainblue",
+      "text-mainmaroon bg-white hover:bg-gray-200 active:bg-mainmaroon active:text-white",
+    active: "text-white bg-mainmaroon",
   };
 
   return (
     <div
       onClick={onClick}
       className={cn(
-        `border-mainblue font-formular-regular flex w-full flex-row items-center gap-3 md:gap-4 rounded-xl md:rounded-2xl border-2 p-2 pl-4 lg:pl-6`,
+        `border-mainmaroon font-formular-regular flex w-full flex-row items-center gap-3 md:gap-4 rounded-xl md:rounded-2xl border-2 p-2 pl-4 lg:pl-6`,
         `transition-colors duration-100 hover:cursor-pointer`,
         `${active ? styles.active : styles.inactive}`,
         className

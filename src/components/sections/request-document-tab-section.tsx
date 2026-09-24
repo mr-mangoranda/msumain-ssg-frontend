@@ -8,11 +8,11 @@ export default function DocumentRequestTabSection() {
       <div className="px-5 sm:px-10 md:px-16 lg:px-32 py-6 md:py-12 lg:py-16">
         <div className="">
           {" "}
-          <p className="font-formular text-mainblue font-medium text-[18px] sm:text-xl md:text-xl lg:text-2xl mb-3 sm:mb-4">
+          <p className="font-formular text-mainmaroon font-medium text-[18px] sm:text-xl md:text-xl lg:text-2xl mb-3 sm:mb-4">
             REGISTRAR&apos;S OFFICE:
           </p>
         </div>
-        <div className="font-formular text-mainblue text-sm sm:text-sm md:text-base space-y-4 sm:space-y-3 md:space-y-4 pl-0 sm:pl-4 md:pl-8">
+        <div className="font-formular text-mainmaroon text-sm sm:text-sm md:text-base space-y-4 sm:space-y-3 md:space-y-4 pl-0 sm:pl-4 md:pl-8">
           <p className="leading-relaxed">
             The form caters to both current students and alumni. The students
             and alumni should fill this out in order to request documents and
@@ -20,7 +20,7 @@ export default function DocumentRequestTabSection() {
           </p>
           <p className="leading-relaxed">
             Access the{" "}
-            <a href="https://www.addu.edu.ph/registrar/" className="text-mainblue underline font-medium">
+            <a href="https://www.addu.edu.ph/registrar/" className="text-mainmaroon underline font-medium">
               link
             </a>{" "}
             if you intend to request for any of the following documents:
@@ -30,7 +30,7 @@ export default function DocumentRequestTabSection() {
         </div>
 
         <div className="mt-4 px-4 sm:px-8 md:px-12 lg:px-20">
-          <ol className="text-mainblue text-sm sm:text-sm md:text-base leading-tight space-y-1 sm:space-y-2 list-decimal marker:font-bold pl-5 sm:pl-6">
+          <ol className="text-mainmaroon text-sm sm:text-sm md:text-base leading-tight space-y-1 sm:space-y-2 list-decimal marker:font-bold pl-5 sm:pl-6">
             <li>
               <strong>Diploma, (Certified True Copy)</strong> – A certified
               replica of your diploma.
@@ -130,17 +130,17 @@ export default function DocumentRequestTabSection() {
         >
           REQUEST REGISTRAR CERTIFICATE
         </Button>
-        <h2 className="font-formular text-mainblue font-medium text-[18px] sm:text-xl md:text-xl lg:text-2xl mb-3 sm:mb-4 mt-8 sm:mt-10 md:mt-12">
+        <h2 className="font-formular text-mainmaroon font-medium text-[18px] sm:text-xl md:text-xl lg:text-2xl mb-3 sm:mb-4 mt-8 sm:mt-10 md:mt-12">
           OFFICE OF THE STUDENT AFFAIRS:
         </h2>
-        <div className="font-formular text-mainblue px-2 sm:px-4 mt-2 sm:mt-3 md:mt-4">
-          <ol className="text-mainblue text-sm sm:text-sm md:text-base leading-tight space-y-1 sm:space-y-2 list-decimal marker:font-bold pl-5 sm:pl-6">
+        <div className="font-formular text-mainmaroon px-2 sm:px-4 mt-2 sm:mt-3 md:mt-4">
+          <ol className="text-mainmaroon text-sm sm:text-sm md:text-base leading-tight space-y-1 sm:space-y-2 list-decimal marker:font-bold pl-5 sm:pl-6">
             <li>
               <strong>Certificate of Good Moral Character</strong>
             </li>
           </ol>
         </div>
-        <div className="px-6 sm:px-10 md:px-14 font-formular text-mainblue text-sm sm:text-sm md:text-base mt-2">
+        <div className="px-6 sm:px-10 md:px-14 font-formular text-mainmaroon text-sm sm:text-sm md:text-base mt-2">
           a. Access the link to request the said document. Please note that the form is only intended for the utilization of the Undergraduate Unit.
         </div>
         <Button 

@@ -6,7 +6,7 @@ export default function DepartmentDirectorySection() {
     <div className="w-full flex flex-col items-center z-50 overflow-x-clip">
       <TabHeader name="DEPARTMENT CHARIPERSONS AND SCHOOL DEANS"></TabHeader>
 
-      <div className="bg-mainblue py-8 md:py-12 px-6 md:px-22 md:rounded-xl justify-self-center mt-0 md:mt-12 w-full z-10 max-w-6xl bg-gradient-to-b from-mainblue to-blue1">
+      <div className="bg-mainmaroon py-8 md:py-12 px-6 md:px-22 md:rounded-xl justify-self-center mt-0 md:mt-12 w-full z-10 max-w-6xl bg-gradient-to-b from-mainmaroon to-gold1">
         
 
         <p className="font-trapix text-center text-3xl md:text-5xl text-white">
@@ -20,7 +20,7 @@ export default function DepartmentDirectorySection() {
         </p>
         <button
           onClick={() => window.open("/documents/Cluster-Deans-and-Chairs.pdf", "_blank")}
-          className="font-formular text-base md:text-2xl bg-white text-mainblue w-full py-3 md:py-4 justify-center rounded-3xl mt-6 md:mt-8 mx-auto block hover:bg-gray-200 cursor-pointer"
+          className="font-formular text-base md:text-2xl bg-white text-mainmaroon w-full py-3 md:py-4 justify-center rounded-3xl mt-6 md:mt-8 mx-auto block hover:bg-gray-200 cursor-pointer"
         >
           View Directory
         </button>

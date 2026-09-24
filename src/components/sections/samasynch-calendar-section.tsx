@@ -76,18 +76,18 @@ const SamaSynchCalendarSection = () => {
         <section className="flex items-center justify-center gap-5 w-full max-w-2xl mx-auto z-10">
           <button onClick={prevMonth}>
             <BiSolidLeftArrow
-              className="hover:scale-105 text-mainblue hover:text-blue1 transition-all"
+              className="hover:scale-105 text-mainmaroon hover:text-gold1 transition-all"
               size={30}
             />
           </button>
           <div className="flex-1 flex justify-center items-center">
-            <h1 className="text-3xl md:text-5xl font-formular-black text-mainblue text-center">
+            <h1 className="text-3xl md:text-5xl font-formular-black text-mainmaroon text-center">
               {currentMonth}
             </h1>
           </div>
           <button onClick={nextMonth}>
             <BiSolidRightArrow
-              className="hover:scale-105 text-mainblue hover:text-blue1 transition-all"
+              className="hover:scale-105 text-mainmaroon hover:text-gold1 transition-all"
               size={30}
             />
           </button>

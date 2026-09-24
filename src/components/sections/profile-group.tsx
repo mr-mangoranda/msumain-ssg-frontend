@@ -14,11 +14,11 @@ export default function ProfileGroup({
   return (
     <section className="flex w-full flex-col items-center px-8 py-12 md:py-16">
       <div className="flex w-full max-w-7xl flex-col">
-        <h2 className="font-formular-black text-center text-2xl uppercase text-mainblue md:text-3xl lg:text-4xl">
+        <h2 className="font-formular-black text-center text-2xl uppercase text-mainmaroon md:text-3xl lg:text-4xl">
           {groupTitle}
         </h2>
 
-        <p className="font-formular-regular mt-4 text-center text-sm leading-relaxed text-mainblue md:text-base">
+        <p className="font-formular-regular mt-4 text-center text-sm leading-relaxed text-mainmaroon md:text-base">
           {description}
         </p>
 

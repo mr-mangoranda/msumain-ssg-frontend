@@ -9,7 +9,7 @@ const buttonVariants = cva(
   {
     variants: {
       variant: {
-        default: "bg-mainblue text-white hover:bg-blue1",
+        default: "bg-mainmaroon text-white hover:bg-gold1",
         destructive:
           "bg-destructive text-white hover:bg-destructive/90 focus-visible:ring-destructive/20 dark:focus-visible:ring-destructive/40 dark:bg-destructive/60",
         outline:
@@ -20,12 +20,12 @@ const buttonVariants = cva(
           "hover:bg-accent hover:text-accent-foreground dark:hover:bg-accent/50",
         link: "text-primary underline-offset-4 hover:underline",
         semester:
-          "border-2 border-mainblue font-formular-mono text-base rounded-2xl px-10 py-6 transition-all",
-        tab: "flex-auto border-[2px] border-mainblue text-xs lg:text-sm 2xl:text-base font-medium transition-colors whitespace-nowrap uppercase cursor-pointer h-min py-3 2xl:py-4",
+          "border-2 border-mainmaroon font-formular-mono text-base rounded-2xl px-10 py-6 transition-all",
+        tab: "flex-auto border-[2px] border-mainmaroon text-xs lg:text-sm 2xl:text-base font-medium transition-colors whitespace-nowrap uppercase cursor-pointer h-min py-3 2xl:py-4",
       },
       active: {
-        true: "bg-white text-mainblue",
-        false: "bg-mainblue text-white",
+        true: "bg-white text-mainmaroon",
+        false: "bg-mainmaroon text-white",
       },
       size: {
         default: "h-9 px-4 py-2 has-[>svg]:px-3",
@@ -40,12 +40,12 @@ const buttonVariants = cva(
       {
         variant: "tab",
         active: true,
-        className: "bg-mainblue text-white", 
+        className: "bg-mainmaroon text-white", 
       },
       {
         variant: "tab",
         active: false,
-        className: "bg-white text-mainblue hover:bg-mainblue hover:text-white",
+        className: "bg-white text-mainmaroon hover:bg-mainmaroon hover:text-white",
       },
     ],
     defaultVariants: {

@@ -144,7 +144,7 @@ function MonthlyReportsPage() {
                             ${
                               isSelected
                                 ? "bg-[#002075]"
-                                : "bg-transparent group-hover:bg-mainblue/50"
+                                : "bg-transparent group-hover:bg-mainmaroon/50"
                             }`}
                         ></div>
                       </div>
@@ -192,7 +192,7 @@ function MonthlyReportsPage() {
                             ${
                               isSelected
                                 ? "bg-[#002075]"
-                                : "bg-transparent group-hover:bg-mainblue/50"
+                                : "bg-transparent group-hover:bg-mainmaroon/50"
                             }`}
                         ></div>
                       </div>

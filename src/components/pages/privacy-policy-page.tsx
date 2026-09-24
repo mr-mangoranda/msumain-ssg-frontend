@@ -22,7 +22,7 @@ function PrivacyPolicyPage() {
         header2="PRIVACY POLICY"
       />
 
-        <div className="relative z-10 flex flex-col items-center justify-center w-full text-mainblue font-formular-regular px-6 md:px-10 lg:px-15 text-sm md:text-base">
+        <div className="relative z-10 flex flex-col items-center justify-center w-full text-mainmaroon font-formular-regular px-6 md:px-10 lg:px-15 text-sm md:text-base">
             <div className='max-w-7xl w-full pt-10 pb-15 md:pb-20 lg:pt-15 flex flex-col gap-y-15'>
                 <div className=''>
                     <h2 className="font-formular-black text-start text-2xl uppercase  md:text-3xl lg:text-4xl">

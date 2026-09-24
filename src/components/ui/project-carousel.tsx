@@ -59,7 +59,7 @@ export default function ProjectCarousel({
         <button
           onClick={handlePrev}
           disabled={!canGoPrev}
-          className="flex-shrink-0 items-center justify-center rounded-none border-none bg-transparent p-0 text-mainblue shadow-none transition-colors duration-300 hover:text-mainblue/70 focus-visible:outline-none focus-visible:ring-0 disabled:pointer-events-none disabled:opacity-50 flex"
+          className="flex-shrink-0 items-center justify-center rounded-none border-none bg-transparent p-0 text-mainmaroon shadow-none transition-colors duration-300 hover:text-mainmaroon/70 focus-visible:outline-none focus-visible:ring-0 disabled:pointer-events-none disabled:opacity-50 flex"
           aria-label="Previous slide"
         >
           <BsFillCaretLeftFill className="h-12 w-12" />
@@ -90,7 +90,7 @@ export default function ProjectCarousel({
         <button
           onClick={handleNext}
           disabled={!canGoNext}
-          className="flex-shrink-0 items-center justify-center rounded-none border-none bg-transparent p-0 text-mainblue shadow-none transition-colors duration-300 hover:text-mainblue/70 focus-visible:outline-none focus-visible:ring-0 disabled:pointer-events-none disabled:opacity-50 flex"
+          className="flex-shrink-0 items-center justify-center rounded-none border-none bg-transparent p-0 text-mainmaroon shadow-none transition-colors duration-300 hover:text-mainmaroon/70 focus-visible:outline-none focus-visible:ring-0 disabled:pointer-events-none disabled:opacity-50 flex"
           aria-label="Next slide"
         >
           <BsFillCaretRightFill className="h-12 w-12" />
@@ -114,7 +114,7 @@ export default function ProjectCarousel({
             type="button"
             className={`h-3 w-3 rounded-full transition-all duration-300 ${
               index === currentPage
-                ? "bg-mainblue scale-110"
+                ? "bg-mainmaroon scale-110"
                 : "bg-slate-400 hover:bg-slate-500"
             }`}
             onClick={() => setCurrentPage(index)}

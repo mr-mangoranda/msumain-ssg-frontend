@@ -13,7 +13,7 @@ function CentralBoardPage() {
         imageAlt="SCB Page Hero"
         header1="SAMAHAN"
         header2="CENTRAL BOARD"
-        className="bg-mainblue/50"
+        className="bg-mainmaroon/50"
       />
 
       <div className="w-full max-w-7xl mx-auto px-8 mt-7 md:mt-16 mb-16">

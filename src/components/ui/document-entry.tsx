@@ -46,13 +46,13 @@ export default function DocumentEntry({ documentName, description, office, actNu
     }
 
     return (
-        <Link href={href} className="group flex flex-col py-5 lg:py-12 md:px-5 w-full mx-auto hover:bg-mainblue transition-colors duration-200  border-b-2 border-mainblue hover:border-mainblue">
+        <Link href={href} className="group flex flex-col py-5 lg:py-12 md:px-5 w-full mx-auto hover:bg-mainmaroon transition-colors duration-200  border-b-2 border-mainmaroon hover:border-mainmaroon">
             {/* Document Name */}
-            <div className="document-name font-formular-black text-lg text-mainblue font-black group-hover:text-white">
+            <div className="document-name font-formular-black text-lg text-mainmaroon font-black group-hover:text-white">
                 {withFontFallback(documentName)}
             </div>
             {/* Description */}
-            <div className="description py-5 font-formular-regular text-sm lg:text-lg text-mainblue group-hover:text-white">
+            <div className="description py-5 font-formular-regular text-sm lg:text-lg text-mainmaroon group-hover:text-white">
                 {withFontFallback(description)}
             </div>
             {/* Office, Act Number, Date */}
@@ -60,8 +60,8 @@ export default function DocumentEntry({ documentName, description, office, actNu
                 {/* Office */}
                 {office && (
                     <div className="office flex items-center space-x-2">
-                        <GoLaw className="text-mainblue group-hover:text-white" size={16}/>
-                        <span className="font-formular-mono text-xs text-mainblue group-hover:text-white">
+                        <GoLaw className="text-mainmaroon group-hover:text-white" size={16}/>
+                        <span className="font-formular-mono text-xs text-mainmaroon group-hover:text-white">
                             {withFontFallback(office)}
                         </span>
                     </div>
@@ -69,8 +69,8 @@ export default function DocumentEntry({ documentName, description, office, actNu
                {/* Act/Resolution Number */}
                 {numberLabel && (
                     <div className="act-no flex items-center space-x-2">
-                        <CourtLawIcon className="text-mainblue group-hover:text-white" size={16} strokeWidth={1.5} />
-                        <span className="font-formular-mono text-mainblue text-xs group-hover:text-white">
+                        <CourtLawIcon className="text-mainmaroon group-hover:text-white" size={16} strokeWidth={1.5} />
+                        <span className="font-formular-mono text-mainmaroon text-xs group-hover:text-white">
                             {withFontFallback(numberLabel)}
                         </span>
                     </div>
@@ -78,8 +78,8 @@ export default function DocumentEntry({ documentName, description, office, actNu
                 {/* Date */}
                 {date && (
                     <div className="date flex items-center space-x-2">
-                        <FaRegCalendar className="text-mainblue group-hover:text-white" size={16} />
-                        <span className="font-formular-mono text-xs text-mainblue group-hover:text-white">
+                        <FaRegCalendar className="text-mainmaroon group-hover:text-white" size={16} />
+                        <span className="font-formular-mono text-xs text-mainmaroon group-hover:text-white">
                             {date.toLocaleDateString('en-US', {
                                 month: 'long',
                                 day: 'numeric',

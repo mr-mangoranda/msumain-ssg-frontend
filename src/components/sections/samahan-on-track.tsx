@@ -132,7 +132,7 @@ export default function OnTrack() {
   const indent_3 = "ml-11 lg:ml-16";
 
   return (
-    <div className="text-mainblue font-formular-regular text-sm sm:text-base">
+    <div className="text-mainmaroon font-formular-regular text-sm sm:text-base">
       <TabHeader name="SAMAHAN ON TRACK" />
       <div className="px-4 lg:px-0">
         <div>
@@ -1325,17 +1325,17 @@ export default function OnTrack() {
             </div>
           </div>
           <div className="overflow-x-auto w-full mx-auto my-8 text-black">
-            <table className="min-w-full border-collapse border-2 border-mainblue">
+            <table className="min-w-full border-collapse border-2 border-mainmaroon">
               <thead>
                 <tr className="bg-white">
                   <th
-                    className="py-3 px-4 sm:px-6 text-left text-[13px] xs:text-sm font-bold border-r-2 border-b-2 border-mainblue"
+                    className="py-3 px-4 sm:px-6 text-left text-[13px] xs:text-sm font-bold border-r-2 border-b-2 border-mainmaroon"
                     style={{ width: "30%" }}
                   >
                     Committee{LPAREN}s{RPAREN} Involved
                   </th>
                   <th
-                    className="py-3 px-4 sm:px-6 text-left text-[13px] xs:text-sm font-bold border-b-2 border-mainblue"
+                    className="py-3 px-4 sm:px-6 text-left text-[13px] xs:text-sm font-bold border-b-2 border-mainmaroon"
                     style={{ width: "70%" }}
                   >
                     Specific Checklists
@@ -1347,7 +1347,7 @@ export default function OnTrack() {
                 <tr className="bg-[#FFDD57]">
                   {/* Column 1 */}
                   {/* Added border-b-2 border-black for the horizontal separator */}
-                  <td className="py-6 px-4 sm:px-6 align-top text-[13px] xs:text-sm font-medium border-r-2 border-mainblue border-b-2 border-black">
+                  <td className="py-6 px-4 sm:px-6 align-top text-[13px] xs:text-sm font-medium border-r-2 border-mainmaroon border-b-2 border-black">
                     <ul className="list-disc list-outside pl-4 space-y-1">
                       <li>Operations</li>
                       <li>Project Heads</li>
@@ -1402,7 +1402,7 @@ export default function OnTrack() {
                 {/* --- Row 2: Teal Background --- */}
                 <tr className="bg-[#83D7D8]">
                   {/* Column 1 */}
-                  <td className="py-6 px-4 sm:px-6 align-top text-[13px] xs:text-sm font-medium border-r-2 border-mainblue">
+                  <td className="py-6 px-4 sm:px-6 align-top text-[13px] xs:text-sm font-medium border-r-2 border-mainmaroon">
                     <ul className="list-disc list-outside pl-4 space-y-1">
                       <li>Creatives Team</li>
                       <li>Media Team</li>
@@ -1463,17 +1463,17 @@ export default function OnTrack() {
             </div>
           </div>
           <div className="overflow-x-auto w-full mx-auto my-8 text-black">
-            <table className="min-w-full border-collapse border-2 border-mainblue">
+            <table className="min-w-full border-collapse border-2 border-mainmaroon">
               <thead>
                 <tr className="bg-white">
                   <th
-                    className="py-3 px-4 sm:px-6 text-left text-sm font-bold border-r-2 border-b-2 border-mainblue"
+                    className="py-3 px-4 sm:px-6 text-left text-sm font-bold border-r-2 border-b-2 border-mainmaroon"
                     style={{ width: "30%" }}
                   >
                     Committee{LPAREN}s{RPAREN} Involved
                   </th>
                   <th
-                    className="py-3 px-4 sm:px-6 text-left text-sm font-bold border-b-2 border-mainblue"
+                    className="py-3 px-4 sm:px-6 text-left text-sm font-bold border-b-2 border-mainmaroon"
                     style={{ width: "70%" }}
                   >
                     Specific Checklists
@@ -1484,7 +1484,7 @@ export default function OnTrack() {
                 {/* --- Row 1: Pink Background (White Text) --- */}
                 <tr className="bg-[#D84BAC] text-white">
                   {/* Column 1 */}
-                  <td className="py-6 px-4 sm:px-6 align-top text-sm font-medium border-r-2 border-mainblue">
+                  <td className="py-6 px-4 sm:px-6 align-top text-sm font-medium border-r-2 border-mainmaroon">
                     <ul className="list-disc list-outside pl-4 space-y-1">
                       <li>Finance Team</li>
                       <li>Project Heads</li>
@@ -1545,17 +1545,17 @@ export default function OnTrack() {
             </div>
           </div>
           <div className="overflow-x-auto w-full mx-auto my-8 text-black">
-            <table className="min-w-full border-collapse border-2 border-mainblue">
+            <table className="min-w-full border-collapse border-2 border-mainmaroon">
               <thead>
                 <tr className="bg-white">
                   <th
-                    className="py-3 px-4 sm:px-6 text-left text-sm font-bold border-r-2 border-b-2 border-mainblue"
+                    className="py-3 px-4 sm:px-6 text-left text-sm font-bold border-r-2 border-b-2 border-mainmaroon"
                     style={{ width: "30%" }}
                   >
                     Committee{LPAREN}s{RPAREN} Involved
                   </th>
                   <th
-                    className="py-3 px-4 sm:px-6 text-left text-sm font-bold border-b-2 border-mainblue"
+                    className="py-3 px-4 sm:px-6 text-left text-sm font-bold border-b-2 border-mainmaroon"
                     style={{ width: "70%" }}
                   >
                     Specific Checklists
@@ -1564,8 +1564,8 @@ export default function OnTrack() {
               </thead>
               <tbody>
                 {/* --- Row 1: Yellow Background --- */}
-                <tr className="bg-[#FFDE59] border-b-2 border-mainblue">
-                  <td className="py-6 px-4 sm:px-6 align-top text-sm font-medium border-r-2 border-mainblue">
+                <tr className="bg-[#FFDE59] border-b-2 border-mainmaroon">
+                  <td className="py-6 px-4 sm:px-6 align-top text-sm font-medium border-r-2 border-mainmaroon">
                     <ul className="list-disc list-outside pl-4 space-y-1">
                       <li>Operations</li>
                       <li>Project Heads</li>
@@ -1580,8 +1580,8 @@ export default function OnTrack() {
                 </tr>
 
                 {/* --- Row 2: Pink Background (White Text) --- */}
-                <tr className="bg-[#D84BAC] text-white border-b-2 border-mainblue">
-                  <td className="py-6 px-4 sm:px-6 align-top text-sm font-medium border-r-2 border-mainblue">
+                <tr className="bg-[#D84BAC] text-white border-b-2 border-mainmaroon">
+                  <td className="py-6 px-4 sm:px-6 align-top text-sm font-medium border-r-2 border-mainmaroon">
                     <ul className="list-disc list-outside pl-4 space-y-1">
                       <li>Finance</li>
                     </ul>
@@ -1594,8 +1594,8 @@ export default function OnTrack() {
                 </tr>
 
                 {/* --- Row 3: Teal Background --- */}
-                <tr className="bg-[#85DBD9] border-b-2 border-mainblue">
-                  <td className="py-6 px-4 sm:px-6 align-top text-sm font-medium border-r-2 border-mainblue">
+                <tr className="bg-[#85DBD9] border-b-2 border-mainmaroon">
+                  <td className="py-6 px-4 sm:px-6 align-top text-sm font-medium border-r-2 border-mainmaroon">
                     <ul className="list-disc list-outside pl-4 space-y-1">
                       <li>Media Team</li>
                     </ul>
@@ -1609,7 +1609,7 @@ export default function OnTrack() {
 
                 {/* --- Row 4: Purple Background (White Text) --- */}
                 <tr className="bg-[#605DC8] text-white">
-                  <td className="py-6 px-4 sm:px-6 align-top text-sm font-medium border-r-2 border-mainblue">
+                  <td className="py-6 px-4 sm:px-6 align-top text-sm font-medium border-r-2 border-mainmaroon">
                     <ul className="list-disc list-outside pl-4 space-y-1">
                       <li>Event Analysis</li>
                     </ul>
@@ -1642,17 +1642,17 @@ export default function OnTrack() {
             </div>
           </div>
           <div className="overflow-x-auto w-full mx-auto my-8 text-black">
-            <table className="min-w-full border-collapse border-2 border-mainblue">
+            <table className="min-w-full border-collapse border-2 border-mainmaroon">
               <thead>
                 <tr className="bg-white">
                   <th
-                    className="py-3 px-4 sm:px-6 text-left text-sm font-bold border-r-2 border-b-2 border-mainblue"
+                    className="py-3 px-4 sm:px-6 text-left text-sm font-bold border-r-2 border-b-2 border-mainmaroon"
                     style={{ width: "30%" }}
                   >
                     Committee{LPAREN}s{RPAREN} Involved
                   </th>
                   <th
-                    className="py-3 px-4 sm:px-6 text-left text-sm font-bold border-b-2 border-mainblue"
+                    className="py-3 px-4 sm:px-6 text-left text-sm font-bold border-b-2 border-mainmaroon"
                     style={{ width: "70%" }}
                   >
                     Specific Checklists
@@ -1661,8 +1661,8 @@ export default function OnTrack() {
               </thead>
               <tbody>
                 {/* --- Row 1: Pink Background (White Text) --- */}
-                <tr className="bg-[#D84BAC] text-white border-b-2 border-mainblue">
-                  <td className="py-6 px-4 sm:px-6 align-top text-sm font-medium border-r-2 border-mainblue">
+                <tr className="bg-[#D84BAC] text-white border-b-2 border-mainmaroon">
+                  <td className="py-6 px-4 sm:px-6 align-top text-sm font-medium border-r-2 border-mainmaroon">
                     <ul className="list-disc list-outside pl-4 space-y-1">
                       <li>Finance</li>
                     </ul>
@@ -1678,8 +1678,8 @@ export default function OnTrack() {
                 </tr>
 
                 {/* --- Row 2: Teal Background --- */}
-                <tr className="bg-[#85DBD9] border-b-2 border-mainblue">
-                  <td className="py-6 px-4 sm:px-6 align-top text-sm font-medium border-r-2 border-mainblue">
+                <tr className="bg-[#85DBD9] border-b-2 border-mainmaroon">
+                  <td className="py-6 px-4 sm:px-6 align-top text-sm font-medium border-r-2 border-mainmaroon">
                     <ul className="list-disc list-outside pl-4 space-y-1">
                       <li>Media Team</li>
                     </ul>
@@ -1692,8 +1692,8 @@ export default function OnTrack() {
                 </tr>
 
                 {/* --- Row 3: Purple Background (White Text) --- */}
-                <tr className="bg-[#605DC8] text-white border-b-2 border-mainblue">
-                  <td className="py-6 px-4 sm:px-6 align-top text-sm font-medium border-r-2 border-mainblue">
+                <tr className="bg-[#605DC8] text-white border-b-2 border-mainmaroon">
+                  <td className="py-6 px-4 sm:px-6 align-top text-sm font-medium border-r-2 border-mainmaroon">
                     <ul className="list-disc list-outside pl-4 space-y-1">
                       <li>Event Analysis</li>
                     </ul>
@@ -1709,7 +1709,7 @@ export default function OnTrack() {
 
                 {/* --- Row 4: Light Pink Background --- */}
                 <tr className="bg-[#FAD2F4]">
-                  <td className="py-6 px-4 sm:px-6 align-top text-sm font-medium border-r-2 border-mainblue">
+                  <td className="py-6 px-4 sm:px-6 align-top text-sm font-medium border-r-2 border-mainmaroon">
                     <ul className="list-disc list-outside pl-4 space-y-1">
                       <li>Directors</li>
                     </ul>

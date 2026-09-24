@@ -52,7 +52,7 @@ export default function TapIn() {
     };
 
     return (
-        <div className="font-formular-regular text-mainblue w-full">
+        <div className="font-formular-regular text-mainmaroon w-full">
             <TabHeader
                 name="SAMAHAN TAP-IN"
             />
@@ -60,7 +60,7 @@ export default function TapIn() {
                 <ol type="1" className="list-decimal pl-5 space-y-6">
                     <li><strong>Craft the concept paper for your event/activity. </strong>
                         Secure required parts of the paper {renderWithFallbackFont('(refer to the concept paper form), and its needed signatures. Afterward, submit it to the Office of the Student Affairs through this link: ')}
-                        <Link href="https://forms.gle/6Wcf8GL8rbGfq7cn9" target="_blank" rel="noopener noreferrer" className="hover:underline text-mainblue break-all">Concept Paper Form</Link>
+                        <Link href="https://forms.gle/6Wcf8GL8rbGfq7cn9" target="_blank" rel="noopener noreferrer" className="hover:underline text-mainmaroon break-all">Concept Paper Form</Link>
                         . Submit your response through this link as well.
                     </li>
                     <li><strong>Once approved, you may proceed with booking your desired venue. </strong>
@@ -68,22 +68,22 @@ export default function TapIn() {
                         {/* Sublist 1 */}
                          <ol type="a" className="list-[lower-alpha] pl-5 mt-2 space-y-4">
                             <li>
-                                <Link href="https://booking.addu.edu.ph" target="_blank" rel="noopener noreferrer" className="hover:underline text-mainblue">
+                                <Link href="https://booking.addu.edu.ph" target="_blank" rel="noopener noreferrer" className="hover:underline text-mainmaroon">
                                 {renderWithFallbackFont('booking.addu.edu.ph')}
                                 </Link>
                                 {renderWithFallbackFont(' for the following assets:')}
                                 <div className="table-container p-4">
-                                    <div className="border border-mainblue">
+                                    <div className="border border-mainmaroon">
                                        {/* Mobile View */}
                                        <div className="md:hidden grid" style={{ gridTemplateColumns: '3.5rem 1fr' }}>
                                           {assets.map((asset, index) => (
                                             <div key={index} className="contents">
                                               {/* Index cell (left column) */}
-                                              <div className="border-t border-b border-r border-mainblue font-bold text-center p-2 bg-white">
+                                              <div className="border-t border-b border-r border-mainmaroon font-bold text-center p-2 bg-white">
                                                 {toRoman(index + 1)}.
                                               </div>
                                               {/* Description cell (right column) */}
-                                              <div className="border-t border-b border-r border-mainblue p-2 break-words bg-white">
+                                              <div className="border-t border-b border-r border-mainmaroon p-2 break-words bg-white">
                                                 {renderWithFallbackFont(asset)}
                                               </div>
                                             </div>
@@ -94,12 +94,12 @@ export default function TapIn() {
                                         <div className="hidden md:grid md:grid-cols-2">
                                             {Array.from({ length: 11 }).map((_, index) => (
                                                 <React.Fragment key={index}>
-                                                    <div className={`flex ${index < 10 ? 'border-b border-mainblue' : ''}`}>
-                                                        <span className="w-16 p-3 font-bold border-r border-mainblue text-center">{toRoman(index + 1)}.</span>
+                                                    <div className={`flex ${index < 10 ? 'border-b border-mainmaroon' : ''}`}>
+                                                        <span className="w-16 p-3 font-bold border-r border-mainmaroon text-center">{toRoman(index + 1)}.</span>
                                                         <span className="flex-1 p-3">{renderWithFallbackFont(assets[index])}</span>
                                                     </div>
-                                                    <div className={`flex ${index < 10 ? 'border-b border-mainblue' : ''} md:border-l border-mainblue`}>
-                                                        <span className="w-16 p-3 font-bold border-r border-mainblue text-center">{toRoman(index + 12)}.</span>
+                                                    <div className={`flex ${index < 10 ? 'border-b border-mainmaroon' : ''} md:border-l border-mainmaroon`}>
+                                                        <span className="w-16 p-3 font-bold border-r border-mainmaroon text-center">{toRoman(index + 12)}.</span>
                                                         <span className="flex-1 p-3">{renderWithFallbackFont(assets[index + 11])}</span>
                                                     </div>
                                                 </React.Fragment>
@@ -113,7 +113,7 @@ export default function TapIn() {
                                     href="https://library.addu.edu.ph/booking/"
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    className="hover:underline text-mainblue break-all"
+                                    className="hover:underline text-mainmaroon break-all"
                                     >
                                     {renderWithFallbackFont('https://library.addu.edu.ph/booking/')}
                                 </Link>

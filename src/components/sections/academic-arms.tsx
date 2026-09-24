@@ -23,7 +23,7 @@ export default function AcademicArms () {
         <div className="flex flex-col items-center">
             <TabHeader name="GET TO KNOW YOUR CLUSTER ACADEMIC ARMS"/>
             
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-y-8 gap-x-1 md:gap-x-14 mt-8 text-mainblue font-formular-regular w-full max-w-6xl">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-y-8 gap-x-1 md:gap-x-14 mt-8 text-mainmaroon font-formular-regular w-full max-w-6xl">
                 
                 <div className="flex flex-col text-center items-center col-span-1 sm:col-span-2 md:col-span-3 max-w-[250px] w-full mx-auto my-4">
                     <Image

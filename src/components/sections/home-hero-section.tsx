@@ -11,26 +11,26 @@ export default function HomeHeroSection() {
           {/* background picture */}
           <Image
             className="absolute -z-20 h-full w-full object-cover"
-            src="/images/home-hero-background.jpg"
+            src="/images/annex-hero-background.jpg"
             width={2048}
             height={1366}
             alt="home hero background"
           />
-          <div className="from-mainblue to-mainblue/60 absolute -z-10 h-full w-full bg-linear-to-t" />
+          <div className="from-mainmaroon to-mainmaroon/60 absolute -z-10 h-full w-full bg-linear-to-t" />
           {/* On the move text */}
           <div className="relative flex w-full flex-col items-center px-5 md:-mt-20 lg:mt-0 2xl:-mt-25">
             <Image
               className="w-full max-w-80 px-4 md:max-w-110 lg:max-w-150 2xl:max-w-200"
-              src="/images/on-the-move-logo.png"
+              src="/images/go-beyond-logo.png"
               width={999}
               height={344}
               alt="on the move logo"
             />
             <p className="font-formular-black mt-4 max-w-100 text-center text-[10px] text-white sm:text-xs md:max-w-none md:text-sm lg:mt-4 lg:text-base xl:text-lg 2xl:mt-6 2xl:text-2xl">
-              SAMAHAN NG MGA MAG-AARAL NG PAMANTASANG ATENEO DE DAVAO
+              SAMAHAN NG MGA MAG-AARAL NG PAMANTASANG MINDANAO STATE UNIVERSITY
             </p>
             <p className="font-formular-mono mt-1 w-60 text-center text-[10px] text-white sm:w-80 sm:text-xs md:w-full lg:text-xs 2xl:text-base">
-              The Student Government of the College Unit of Ateneo de Davao
+              The Student Government of the College Unit of Mindanao State
               University
             </p>
             <Waveform className="absolute -bottom-40 -left-100 sm:-bottom-30 sm:-left-90 md:-bottom-40 md:-left-110 lg:bottom-20 lg:-left-165 xl:bottom-5 xl:-left-220 2xl:bottom-20 2xl:-left-200" />
@@ -47,14 +47,14 @@ export default function HomeHeroSection() {
             alt="white building wireframe mirrored"
           />
           <Image
-            className="xs:block absolute bottom-0 hidden w-full"
+            className="xs:block absolute -bottom-19 hidden w-full"
             width={1920}
             height={355}
-            src="/images/white-building-wireframe-mirrored.png"
+            src="/images/white-building-wireframe-mirrored-msumain-gate.png"
             alt="white building wireframe mirrored"
           />
         </div>
-        <div className="from-mainblue relative max-h-23 w-full bg-linear-to-b from-30% to-white/10 pb-8 md:max-h-30 lg:max-h-40 xl:max-h-50 2xl:max-h-60">
+        <div className="from-mainmaroon relative max-h-23 w-full bg-linear-to-b from-30% to-white/10 pb-8 md:max-h-30 lg:max-h-40 xl:max-h-50 2xl:max-h-60">
           <Image
             className="xs:hidden w-full origin-center rotate-180 opacity-15"
             src="/images/white-building-wireframe-mirrored-mobile.png"

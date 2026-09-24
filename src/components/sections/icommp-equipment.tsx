@@ -8,7 +8,7 @@ export default function IcommpEquipment() {
       <TabHeader name="ICOMMP EQUIPMENT AND STUDIOS BOOKING" />
 
       <div className="mt-6 md:mt-8 px-4 md:px-8 lg:px-12">
-        <p className="font-formular-regular text-sm md:text-base text-mainblue mb-6 md:mb-8">
+        <p className="font-formular-regular text-sm md:text-base text-mainmaroon mb-6 md:mb-8">
           Access the link if you intend to book the following equipment and/or
           studios:
         </p>
@@ -18,15 +18,15 @@ export default function IcommpEquipment() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
           {icommpEquipmentData.map((item) => (
             <div key={item.id} className="flex gap-3">
-              <span className="font-formular text-mainblue text-sm md:text-base flex-shrink-0">
+              <span className="font-formular text-mainmaroon text-sm md:text-base flex-shrink-0">
                 {item.id}.
               </span>
               <div className="flex flex-col gap-1">
-                <p className="font-formular-regular text-sm md:text-base text-mainblue">
+                <p className="font-formular-regular text-sm md:text-base text-mainmaroon">
                   {item.name}
                 </p>
                 {item.note && (
-                  <p className="font-formular-regular text-xs md:text-sm text-mainblue">
+                  <p className="font-formular-regular text-xs md:text-sm text-mainmaroon">
                     {item.note}
                   </p>
                 )}

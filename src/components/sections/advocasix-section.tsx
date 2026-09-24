@@ -14,10 +14,10 @@ export default function AdvocasixSection() {
   return (
     <>
       <section className="mt-10 md:mt-14 flex w-full flex-col px-8 xxs:w-80 md:w-120 lg:w-204 xl:w-268">
-        <h1 className="font-formular-black text-center text-xl text-mainblue md:text-3xl lg:text-4xl xl:text-6xl">
+        <h1 className="font-formular-black text-center text-xl text-mainmaroon md:text-3xl lg:text-4xl xl:text-6xl">
           ADVOCASIX
         </h1>
-        <p className="font-formular mt-6 text-justify text-sm text-mainblue md:text-base">
+        <p className="font-formular mt-6 text-justify text-sm text-mainmaroon md:text-base">
           Guided by its principles as a Jesuit, Filipino, and Mindanaoan
           autonomous student government, the Samahan ng mga Mag-aaral ng
           Pamantasan ng Ateneo de Davao set the goal of championing the

@@ -5,9 +5,9 @@
   --breakpoint-xxs: 20rem;
   --breakpoint-xs: 425px;
   --breakpoint-xs-sm: 530px;
-  --color-mainblue: #002075;
-  --color-blue1: #002AA0;
-  --color-blue2: #083BA9;
+  --color-mainmaroon: #6B0F1A;
+  --color-gold1: #C9A84C;
+  --color-gold2: #A67C30;
   --color-white: #FFFFFF;
   --color-black: #000000;
 }
@@ -15,21 +15,27 @@
 .font-trapix {
   font-family: var(--font-trapix);
 }
+
 .font-formular-regular {
   font-family: var(--font-formular-regular);
 }
+
 .font-formular-medium {
   font-family: var(--font-formular-medium);
 }
+
 .font-formular-bold {
   font-family: var(--font-formular-bold);
 }
+
 .font-formular-black {
   font-family: var(--font-formular-black);
 }
+
 .font-formular-mono {
   font-family: var(--font-formular-mono);
 }
+
 .font-fontspring {
   font-family: var(--font-fontspring);
 }
@@ -156,6 +162,7 @@
   * {
     @apply border-border outline-ring/50;
   }
+
   body {
     @apply bg-background text-foreground;
   }

@@ -20,7 +20,7 @@ const ProjectCard = ({
 
   return (
     <div
-      className={`w-full max-w-2xl mx-auto rounded-2xl overflow-hidden bg-gradient-to-b from-mainblue from-60% to-blue2 flex flex-col transition-all duration-300 ${
+      className={`w-full max-w-2xl mx-auto rounded-2xl overflow-hidden bg-gradient-to-b from-mainmaroon from-60% to-gold2 flex flex-col transition-all duration-300 ${
         isExpanded ? "lg:h-auto" : "lg:h-[700px]"
       }`}
     >
@@ -49,7 +49,7 @@ const ProjectCard = ({
         {/* Read More/Less button - Both Mobile & Desktop */}
         <button
           onClick={() => setIsExpanded(!isExpanded)}
-          className={`${formularRegular.className}  cursor-pointer font-normal mt-2 inline-block self-center rounded-full border border-white px-4 py-2 text-xs text-mainblue transition-colors bg-white hover:bg-mainblue hover:text-white`}
+          className={`${formularRegular.className}  cursor-pointer font-normal mt-2 inline-block self-center rounded-full border border-white px-4 py-2 text-xs text-mainmaroon transition-colors bg-white hover:bg-mainmaroon hover:text-white`}
         >
           {isExpanded ? "Read Less ▴" : "Read More ▸"}
         </button>

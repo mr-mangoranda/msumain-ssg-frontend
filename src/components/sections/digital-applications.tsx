@@ -98,11 +98,11 @@ const DigitalApplications = () => {
         <div className="mt-15 space-y-15 lg:space-y-32">
           {categories.map((category, index) => (
             <div key={index} className="text-center">
-              <h3 className="font-trapix text-2xl md:text-3xl text-mainblue mb-4">
+              <h3 className="font-trapix text-2xl md:text-3xl text-mainmaroon mb-4">
                 {category.title}
               </h3>
 
-              <p className="text-sm md:text-base text-mainblue max-w-5xl mx-auto mb-8 px-4">
+              <p className="text-sm md:text-base text-mainmaroon max-w-5xl mx-auto mb-8 px-4">
                 {category.description}
               </p>
 
@@ -122,7 +122,7 @@ const DigitalApplications = () => {
                         className="w-30 h-30 md:w-30 md:h-30 object-contain"
                       />
                     </div>
-                    <span className="font-formular text-xs md:text-sm font-semibold text-mainblue uppercase">
+                    <span className="font-formular text-xs md:text-sm font-semibold text-mainmaroon uppercase">
                       {app.name}
                     </span>
                   </div>
@@ -130,7 +130,7 @@ const DigitalApplications = () => {
 
                 {category.link && (
                   <div className="flex flex-col items-center gap-3">
-                    <button className="text-mainblue font-formular text-xs md:text-sm font-semibold uppercase underline hover:no-underline">
+                    <button className="text-mainmaroon font-formular text-xs md:text-sm font-semibold uppercase underline hover:no-underline">
                       {category.link}
                     </button>
                   </div>

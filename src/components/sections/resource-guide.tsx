@@ -4,11 +4,11 @@ export default function ResourceGuide() {
   return (
     <section className="flex w-full flex-col items-center overflow-x-clip px-6 pt-3 pb-12 md:px-8 md:pb-16 lg:pb-20">
       <div className="w-full max-w-6xl">
-        <h1 className="font-formular-black text-center text-xl text-mainblue md:text-3xl lg:text-4xl xl:text-6xl">
+        <h1 className="font-formular-black text-center text-xl text-mainmaroon md:text-3xl lg:text-4xl xl:text-6xl">
           STUDENT RESOURCE GUIDE
         </h1>
 
-        <p className="font-formular-regular mt-10 text-justify text-sm leading-relaxed text-mainblue md:text-base lg:leading-relaxed">
+        <p className="font-formular-regular mt-10 text-justify text-sm leading-relaxed text-mainmaroon md:text-base lg:leading-relaxed">
           Traversing into new pathways towards attaining academic excellence,
           sustaining academic service, and empowering academic integrity, the
           SAMAHAN Department of Academic Affairs pioneers its mission to provide
@@ -17,7 +17,7 @@ export default function ResourceGuide() {
           distribution.
         </p>
 
-        <p className="font-formular-bold mt-4 text-justify text-sm leading-relaxed text-mainblue md:text-base lg:leading-relaxed">
+        <p className="font-formular-bold mt-4 text-justify text-sm leading-relaxed text-mainmaroon md:text-base lg:leading-relaxed">
           AcadHub: The Student Resource Guide,{" "}
           <span className="font-formular-regular">
             an initiative of the SAMAHAN Department of Academic Affairs, is your

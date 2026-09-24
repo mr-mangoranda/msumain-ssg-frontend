@@ -14,7 +14,7 @@ export default function SDGCard({
   cardNumber,
   name,
   imageUrl,
-  cardColor = "bg-mainblue",
+  cardColor = "bg-mainmaroon",
 }: SDGCardProps) {
   return (
     <div

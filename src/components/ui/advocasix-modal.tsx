@@ -33,7 +33,7 @@ export default function AdvocasixModal({
         showCloseButton={true}
         className={cn(
           // Positioning & Centering
-          "fixed left-[50%] top-[50%] z-50 flex flex-col gap-0 rounded-xl border-2 border-mainblue bg-white p-0 shadow-2xl duration-200 translate-x-[-50%] translate-y-[-50%]",
+          "fixed left-[50%] top-[50%] z-50 flex flex-col gap-0 rounded-xl border-2 border-mainmaroon bg-white p-0 shadow-2xl duration-200 translate-x-[-50%] translate-y-[-50%]",
 
           // Sizing Logic (Frame)
           "h-auto min-h-[500px] max-h-[65vh] sm:max-h-[85vh]",
@@ -66,7 +66,7 @@ export default function AdvocasixModal({
           <div
             className={cn(
               // Base Layout
-              "relative w-full shrink-0 overflow-hidden border-b-2 border-b-mainblue", // Removed rounded-t-xl here as parent clips it
+              "relative w-full shrink-0 overflow-hidden border-b-2 border-b-mainmaroon", // Removed rounded-t-xl here as parent clips it
               // Height Breakpoints
               "h-[256px]",
               "sm:h-[380px]",
@@ -103,7 +103,7 @@ export default function AdvocasixModal({
               <h1
                 className={cn(
                   // Base Typography
-                  "font-formular-black w-full text-center uppercase leading-tight text-mainblue",
+                  "font-formular-black w-full text-center uppercase leading-tight text-mainmaroon",
                   // Size Breakpoints
                   "text-lg",
                   "sm:text-2xl",
@@ -119,7 +119,7 @@ export default function AdvocasixModal({
             <div
               className={cn(
                 // Base Typography & Layout
-                "w-full text-justify leading-relaxed text-mainblue/90",
+                "w-full text-justify leading-relaxed text-mainmaroon/90",
                 // Margin & Text Size Breakpoints
                 "mt-4 text-sm",
                 "sm:text-base",

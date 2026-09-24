@@ -39,7 +39,7 @@ const CalendarPicker = ({
   const activeDates = createDateRange(startDate, dateWithEvents, endDate) ?? [];
   console.log(activeDates);
   return (
-    <div className="p-4 border-2 border-blue1 rounded-2xl bg-white shadow-sm inline-block">
+    <div className="p-4 border-2 border-gold1 rounded-2xl bg-white shadow-sm inline-block">
       <DayPicker
         mode="single"
         hideNavigation
@@ -54,20 +54,20 @@ const CalendarPicker = ({
         }}
         modifiersClassNames={{
           eventDates:
-            "relative font-formular-mono text-mainblue after:content-[''] after:absolute after:bottom-[3px] after:left-1/2 after:-translate-x-1/2 after:w-1 after:h-1 after:rounded-full after:bg-mainblue",
+            "relative font-formular-mono text-mainmaroon after:content-[''] after:absolute after:bottom-[3px] after:left-1/2 after:-translate-x-1/2 after:w-1 after:h-1 after:rounded-full after:bg-mainmaroon",
           activeDates:
-            "bg-mainblue text-white font-formular-mono rounded-none  after:content-[''] after:absolute after:bottom-[3px] after:left-1/2 after:-translate-x-1/2 after:w-1 after:h-1 after:rounded-full after:bg-white",
+            "bg-mainmaroon text-white font-formular-mono rounded-none  after:content-[''] after:absolute after:bottom-[3px] after:left-1/2 after:-translate-x-1/2 after:w-1 after:h-1 after:rounded-full after:bg-white",
           startingDate:
-            "bg-mainblue text-white font-formular-mono rounded-l-3xl",
-          endingDate: "bg-mainblue text-white font-formular-mono rounded-r-3xl",
+            "bg-mainmaroon text-white font-formular-mono rounded-l-3xl",
+          endingDate: "bg-mainmaroon text-white font-formular-mono rounded-r-3xl",
         }}
         styles={{
           day: { pointerEvents: "none" },
         }}
         classNames={{
-          day: "relative text-mainblue font-formular-mono text-sm",
+          day: "relative text-mainmaroon font-formular-mono text-sm",
           month_caption: "hidden",
-          weekday: "uppercase font-fontspring text-mainblue",
+          weekday: "uppercase font-fontspring text-mainmaroon",
         }}
       />
     </div>

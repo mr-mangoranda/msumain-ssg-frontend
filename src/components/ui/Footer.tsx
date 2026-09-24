@@ -6,7 +6,7 @@ import { FaXTwitter } from "react-icons/fa6";
 export default function Footer() {
   return (
     //Container for footer
-    <footer className="bg-mainblue p-15 text-white rounded-t-[100px]">
+    <footer className="bg-mainmaroon p-15 text-white rounded-t-[100px]">
       {/* 1. Logo and Org Name Row */}
       <div className="logo-orgname-container flex flex-col lg:flex-row items-center lg:items-start text-center lg:text-left gap-8 ">
         {/* Container for logo */}

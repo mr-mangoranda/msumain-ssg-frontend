@@ -96,7 +96,7 @@ export const ReportCardDescription = React.forwardRef<
       <p
         ref={ref}
         className={cn(
-          "font-formular-regular text-mainblue line-clamp-7 text-center text-xs leading-3.5",
+          "font-formular-regular text-mainmaroon line-clamp-7 text-center text-xs leading-3.5",
           className,
         )}
         {...props}
@@ -137,7 +137,7 @@ export const ReportCardThumbnailTitle = React.forwardRef<
 >(({ title, wrapperClassName, className, size, ...props }, ref) => {
   return (
     <div
-      className={cn("bg-mainblue w-full rounded-t-2xl", wrapperClassName)}
+      className={cn("bg-mainmaroon w-full rounded-t-2xl", wrapperClassName)}
       {...props}
     >
       <p

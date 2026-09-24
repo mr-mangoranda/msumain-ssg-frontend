@@ -36,7 +36,7 @@ function DialogOverlay({
     <DialogPrimitive.Overlay
       data-slot="dialog-overlay"
       className={cn(
-        "data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0 fixed inset-0 z-50 bg-mainblue/60",
+        "data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0 fixed inset-0 z-50 bg-mainmaroon/60",
         className
       )}
       {...props}
@@ -80,7 +80,7 @@ function DialogContent({
               
               // Visual styling
               "flex items-center justify-center rounded-full",
-              "bg-mainblue text-white",
+              "bg-mainmaroon text-white",
               "shadow-sm",
               
               // Interactive states
@@ -88,7 +88,7 @@ function DialogContent({
               "opacity-90 hover:opacity-100",
               "transition-all duration-200",
               "hover:scale-110",
-              "focus:outline-none focus-visible:ring-2 focus-visible:ring-mainblue focus-visible:ring-offset-2",
+              "focus:outline-none focus-visible:ring-2 focus-visible:ring-mainmaroon focus-visible:ring-offset-2",
               
               // Disabled state
               "disabled:pointer-events-none disabled:opacity-50"

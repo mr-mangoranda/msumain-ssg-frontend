@@ -95,28 +95,28 @@ const ReportCarousel: React.FC<ReportCarouselProps> = ({
           <button
             onClick={handlePrev}
             disabled={currentIndex === 0}
-            className={`lg:hidden p-2 rounded-full bg-mainblue text-white transition-opacity
+            className={`lg:hidden p-2 rounded-full bg-mainmaroon text-white transition-opacity
               ${
                 currentIndex === 0
                   ? "opacity-0 cursor-default"
-                  : "hover:bg-blue1 cursor-pointer"
+                  : "hover:bg-gold1 cursor-pointer"
               }`}
           >
             <ChevronLeft size={20} />
           </button>
 
-          <h2 className="text-3xl lg:text-6xl font-formular-black text-mainblue text-center uppercase tracking-wider">
+          <h2 className="text-3xl lg:text-6xl font-formular-black text-mainmaroon text-center uppercase tracking-wider">
             {month}
           </h2>
 
           <button
             onClick={handleNext}
             disabled={currentIndex >= totalPages - 1}
-            className={`lg:hidden p-2 rounded-full bg-mainblue text-white transition-opacity
+            className={`lg:hidden p-2 rounded-full bg-mainmaroon text-white transition-opacity
               ${
                 currentIndex >= totalPages - 1
                   ? "opacity-0 cursor-default"
-                  : "hover:bg-blue1 cursor-pointer"
+                  : "hover:bg-gold1 cursor-pointer"
               }`}
           >
             <ChevronRight size={20} />
@@ -129,7 +129,7 @@ const ReportCarousel: React.FC<ReportCarouselProps> = ({
           <button
             onClick={handlePrev}
             disabled={currentIndex === 0}
-            className="flex-shrink-0 items-center justify-center rounded-xl border-none bg-mainblue p-2 text-white shadow-none transition-colors duration-500 hover:bg-blue1 focus-visible:outline-none focus-visible:ring-0 disabled:pointer-events-none disabled:opacity-50 flex"
+            className="flex-shrink-0 items-center justify-center rounded-xl border-none bg-mainmaroon p-2 text-white shadow-none transition-colors duration-500 hover:bg-gold1 focus-visible:outline-none focus-visible:ring-0 disabled:pointer-events-none disabled:opacity-50 flex"
             aria-label="Previous slide"
           >
             <ChevronLeft size={24} />
@@ -172,7 +172,7 @@ const ReportCarousel: React.FC<ReportCarouselProps> = ({
           <button
             onClick={handleNext}
             disabled={currentIndex >= totalPages - 1}
-            className="flex-shrink-0 items-center justify-center rounded-xl border-none bg-mainblue p-2 text-white shadow-none transition-colors duration-500 hover:bg-blue1 focus-visible:outline-none focus-visible:ring-0 disabled:pointer-events-none disabled:opacity-50 flex"
+            className="flex-shrink-0 items-center justify-center rounded-xl border-none bg-mainmaroon p-2 text-white shadow-none transition-colors duration-500 hover:bg-gold1 focus-visible:outline-none focus-visible:ring-0 disabled:pointer-events-none disabled:opacity-50 flex"
             aria-label="Next slide"
           >
             <ChevronRight size={24} />
@@ -210,7 +210,7 @@ const ReportCarousel: React.FC<ReportCarouselProps> = ({
         isModalOpen &&
         createPortal(
           <div
-            className="fixed inset-0 z-[9999] flex items-center justify-center p-4 animate-in  duration-500 backdrop-blur-sm bg-mainblue/75"
+            className="fixed inset-0 z-[9999] flex items-center justify-center p-4 animate-in  duration-500 backdrop-blur-sm bg-mainmaroon/75"
             onClick={closeModal}
           >
             <button
@@ -227,7 +227,7 @@ const ReportCarousel: React.FC<ReportCarouselProps> = ({
               <button
                 onClick={handleModalPrev}
                 disabled={modalIndex === 0}
-                className={`absolute left-0 lg:left-4 z-50 p-2 text-mainblue bg-white rounded-xl 
+                className={`absolute left-0 lg:left-4 z-50 p-2 text-mainmaroon bg-white rounded-xl 
                 ${
                   modalIndex === 0
                     ? "hidden"
@@ -251,7 +251,7 @@ const ReportCarousel: React.FC<ReportCarouselProps> = ({
               <button
                 onClick={handleModalNext}
                 disabled={modalIndex === items.length - 1}
-                className={`absolute right-0 lg:right-4 z-50 p-2 text-mainblue bg-white rounded-xl transition-all 
+                className={`absolute right-0 lg:right-4 z-50 p-2 text-mainmaroon bg-white rounded-xl transition-all 
                 ${
                   modalIndex === items.length - 1
                     ? "hidden"
