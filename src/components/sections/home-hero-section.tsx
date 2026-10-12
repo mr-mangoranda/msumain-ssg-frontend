@@ -33,11 +33,11 @@ export default function HomeHeroSection() {
               The Student Government of the College Unit of Mindanao State
               University
             </p>
-            <Waveform className="absolute -bottom-40 -left-100 sm:-bottom-30 sm:-left-90 md:-bottom-40 md:-left-110 lg:bottom-20 lg:-left-165 xl:bottom-5 xl:-left-220 2xl:bottom-20 2xl:-left-200" />
-            <Waveform
+            {/* <Waveform className="absolute -bottom-40 -left-100 sm:-bottom-30 sm:-left-90 md:-bottom-40 md:-left-110 lg:bottom-20 lg:-left-165 xl:bottom-5 xl:-left-220 2xl:bottom-20 2xl:-left-200" /> */}
+            {/* <Waveform
               className="absolute -right-100 bottom-55 sm:-right-80 sm:bottom-45 md:-right-90 md:bottom-45 lg:-right-155 lg:bottom-45 xl:-right-220 xl:bottom-30 2xl:-right-190 2xl:bottom-50"
               reverse={1}
-            />
+            /> */}
           </div>
           <Image
             className="xs:hidden absolute bottom-0 w-full"

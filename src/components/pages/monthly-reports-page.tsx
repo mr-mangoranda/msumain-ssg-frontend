@@ -4,28 +4,12 @@ import { ChevronDown } from "lucide-react";
 import HeroBanner from "../ui/hero-banner";
 import ReportCarousel from "../ui/report-carousel";
 
-const AVAILABLE_YEARS = [2025, 2026];
-const AVAILABLE_MONTHS = ["June", "July", "August"];
-
-const MONTH_ORDER = AVAILABLE_MONTHS;
-
-const generateMonthData = (month: string, year: number, count: number) => {
-  return Array.from({ length: count }, (_, i) => ({
-    id: `${year}-${month.toLowerCase()}-${i + 1}`,
-    year: year,
-    month: month,
-    imageSrc: `/images/monthly-reports/${month.toLowerCase()}-reports/${month}-${
-      i + 1
-    }.jpg`,
-    altText: `${month} status report`,
-  }));
-};
-
-const GALLERY_DATA = [
-  ...generateMonthData("June", 2025, 44),
-  ...generateMonthData("July", 2025, 30),
-  ...generateMonthData("August", 2025, 37),
-];
+import {
+  AVAILABLE_YEARS,
+  AVAILABLE_MONTHS,
+  MONTH_ORDER,
+  GALLERY_DATA,
+} from "@/data/monthly-reports-data";
 
 function MonthlyReportsPage() {
   const [selectedYear, setSelectedYear] = useState<number>(2025);
